@@ -26,5 +26,9 @@ export class BienvenidaComponent implements OnInit {
 
   }
 
+  Onvuelo(){
+    this.router.navigate(["vuelo"])
+
+  }
 
 }
