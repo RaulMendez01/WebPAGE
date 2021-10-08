@@ -1,0 +1,9 @@
+git init
+git add .
+git commit -m "vista"
+git remote add https://github.com/RaulMendez01/WebPAGE.git
+git push origin master
+git remote add origin https://github.com/RaulMendez01/WebPAGE.git
+git remote add https://github.com/RaulMendez01/WebPAGE.git
+git pull --rebase origin main
+git push origin main
