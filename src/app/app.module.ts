@@ -11,14 +11,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { LoginComponent } from './login/login.component';
 //pueba login
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-import{HttpClientModule} from '@angular/common/http'
+import{HttpClientModule} from '@angular/common/http';
+import { VueloComponent } from './vuelo/vuelo.component';
+import { RutaComponent } from './ruta/ruta.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     PersonaComponent,
     BienvenidaComponent,
-    LoginComponent
+    LoginComponent,
+    VueloComponent,
+    RutaComponent
   ],
   imports: [
     BrowserModule,

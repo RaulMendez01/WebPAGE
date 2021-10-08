@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class BienvenidaComponent implements OnInit {
 
-  constructor(private router:Router) { 
+  constructor(private router:Router) {
 
   }
 
@@ -17,6 +17,14 @@ export class BienvenidaComponent implements OnInit {
 
   Onnavegar(){
     this.router.navigate(["persona"])
+
   }
+
+
+  Onrutas(){
+    this.router.navigate(["ruta"])
+
+  }
+
 
 }

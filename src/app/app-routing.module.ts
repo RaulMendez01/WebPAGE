@@ -1,3 +1,4 @@
+import { RutaComponent } from './ruta/ruta.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -7,7 +8,8 @@ import { PersonaComponent } from './persona/persona.component';
 
 const routes = [
   {path: '',component:BienvenidaComponent},
-  {path: 'persona',component:PersonaComponent}
+  {path: 'persona',component:PersonaComponent},
+  {path: 'ruta',component:RutaComponent}
 ]
 
 @NgModule({
