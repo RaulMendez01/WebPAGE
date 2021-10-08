@@ -1,14 +1,36 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
+import { ModalModule } from 'ngx-bootstrap/modal';
 import { AppComponent } from './app.component';
+import { PersonaComponent } from './persona/persona.component';
+import { BienvenidaComponent } from './bienvenida/bienvenida.component';
+import { AppRoutingModule } from './app-routing.module';
+import { LoginComponent } from './login/login.component';
+//pueba login
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import{HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PersonaComponent,
+    BienvenidaComponent,
+    LoginComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BsDropdownModule.forRoot(),
+    TooltipModule.forRoot(),
+    ModalModule.forRoot(),
+    AppRoutingModule,
+    //LOGIN
+    ReactiveFormsModule, 
+    FormsModule,
+    HttpClientModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
