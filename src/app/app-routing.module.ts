@@ -6,12 +6,14 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { BienvenidaComponent } from './bienvenida/bienvenida.component';
 import { PersonaComponent } from './persona/persona.component';
+import { RegistroComponent } from './registro/registro.component';
 
 const routes = [
   {path: '',component:BienvenidaComponent},
   {path: 'persona',component:PersonaComponent},
   {path: 'ruta',component:RutaComponent},
-  {path: 'vuelo',component:VueloComponent}
+  {path: 'vuelo',component:VueloComponent},
+  {path: 'registro',component:RegistroComponent}
 ]
 
 @NgModule({

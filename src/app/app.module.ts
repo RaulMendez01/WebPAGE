@@ -13,7 +13,8 @@ import { LoginComponent } from './login/login.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import{HttpClientModule} from '@angular/common/http';
 import { VueloComponent } from './vuelo/vuelo.component';
-import { RutaComponent } from './ruta/ruta.component'
+import { RutaComponent } from './ruta/ruta.component';
+import { RegistroComponent } from './registro/registro.component'
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { RutaComponent } from './ruta/ruta.component'
     BienvenidaComponent,
     LoginComponent,
     VueloComponent,
-    RutaComponent
+    RutaComponent,
+    RegistroComponent
   ],
   imports: [
     BrowserModule,

@@ -30,5 +30,8 @@ export class BienvenidaComponent implements OnInit {
     this.router.navigate(["vuelo"])
 
   }
+  Onregsitro(){
+    this.router.navigate(["registro"])
 
+  }
 }
