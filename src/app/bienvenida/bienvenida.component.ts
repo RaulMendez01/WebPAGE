@@ -34,4 +34,9 @@ export class BienvenidaComponent implements OnInit {
     this.router.navigate(["registro"])
 
   }
+
+  Oncancelar(){
+    this.router.navigate(["cancelar"])
+
+  }
 }

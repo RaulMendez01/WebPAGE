@@ -14,7 +14,9 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import{HttpClientModule} from '@angular/common/http';
 import { VueloComponent } from './vuelo/vuelo.component';
 import { RutaComponent } from './ruta/ruta.component';
-import { RegistroComponent } from './registro/registro.component'
+import { RegistroComponent } from './registro/registro.component';
+import { CancelarComponent } from './cancelar/cancelar.component';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,11 @@ import { RegistroComponent } from './registro/registro.component'
     LoginComponent,
     VueloComponent,
     RutaComponent,
-    RegistroComponent
+
+
+    RegistroComponent,
+    CancelarComponent
+
   ],
   imports: [
     BrowserModule,
@@ -33,10 +39,10 @@ import { RegistroComponent } from './registro/registro.component'
     ModalModule.forRoot(),
     AppRoutingModule,
     //LOGIN
-    ReactiveFormsModule, 
+    ReactiveFormsModule,
     FormsModule,
     HttpClientModule
-    
+
   ],
   providers: [],
   bootstrap: [AppComponent]

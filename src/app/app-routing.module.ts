@@ -1,3 +1,5 @@
+
+import { CancelarComponent } from './cancelar/cancelar.component';
 import { VueloComponent } from './vuelo/vuelo.component';
 import { RutaComponent } from './ruta/ruta.component';
 import { NgModule } from '@angular/core';
@@ -13,7 +15,10 @@ const routes = [
   {path: 'persona',component:PersonaComponent},
   {path: 'ruta',component:RutaComponent},
   {path: 'vuelo',component:VueloComponent},
-  {path: 'registro',component:RegistroComponent}
+
+  {path: 'registro',component:RegistroComponent},
+  {path: 'cancelar',component:CancelarComponent}
+
 ]
 
 @NgModule({
