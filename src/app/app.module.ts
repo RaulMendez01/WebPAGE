@@ -12,11 +12,15 @@ import { LoginComponent } from './login/login.component';
 //pueba login
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import{HttpClientModule} from '@angular/common/http';
+<<<<<<< HEAD
 import { VueloComponent } from './vuelo/vuelo.component';
 import { RutaComponent } from './ruta/ruta.component';
 import { RegistroComponent } from './registro/registro.component';
 import { CancelarComponent } from './cancelar/cancelar.component';
 
+=======
+import { AerolineaComponent } from './aerolinea/aerolinea.component'
+>>>>>>> vista aerolinea
 
 @NgModule({
   declarations: [
@@ -24,6 +28,7 @@ import { CancelarComponent } from './cancelar/cancelar.component';
     PersonaComponent,
     BienvenidaComponent,
     LoginComponent,
+<<<<<<< HEAD
     VueloComponent,
     RutaComponent,
 
@@ -31,6 +36,9 @@ import { CancelarComponent } from './cancelar/cancelar.component';
     RegistroComponent,
     CancelarComponent
 
+=======
+    AerolineaComponent
+>>>>>>> vista aerolinea
   ],
   imports: [
     BrowserModule,

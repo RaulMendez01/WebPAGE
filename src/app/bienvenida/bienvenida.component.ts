@@ -35,8 +35,17 @@ export class BienvenidaComponent implements OnInit {
 
   }
 
+<<<<<<< HEAD
   Oncancelar(){
     this.router.navigate(["cancelar"])
 
   }
+=======
+
+
+Onaerolinea(){
+  this.router.navigate(["aerolinea"])
+}
+
+>>>>>>> vista aerolinea
 }
