@@ -44,5 +44,7 @@ export class BienvenidaComponent implements OnInit {
 Onaerolinea(){
   this.router.navigate(["aerolinea"])
 }
-
+Onaavion(){
+  this.router.navigate(["avion"])
+}
 }

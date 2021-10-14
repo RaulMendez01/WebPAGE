@@ -49,7 +49,7 @@
     overflow: hidden;
     position: relative;
     box-shadow: 0 0 6px 0 rgb(0, 0, 0, .5);
-    
+
 }
 
 .imagen-transport > img {
@@ -79,8 +79,8 @@
     text-align: center;
     color: #f9ca24;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    height: 100px;  
-    
+    height: 100px;
+
 }
 
 .hover-galeria-garanty p{
@@ -127,5 +127,5 @@ footer{
     text-align: center;
     font-size: 100%;
     color: #f2f2f2;
-    
+
 }

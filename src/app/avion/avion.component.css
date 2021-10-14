@@ -1,6 +1,7 @@
 body {
 
-  position: relative;
+
+   position: relative;
     background: url(https://c.wallhere.com/photos/5b/d6/aircraft_landing_sunset_il_76-59073.jpg!d);
     background-size:cover;
     background-attachment: fixed;
@@ -17,7 +18,7 @@ body {
 
 .form-register {
   width: 400px;
-  background: #16508a;
+  background: #8a6d8a;
   padding: 30px;
   margin: auto;
   margin-top: 100px;
@@ -34,7 +35,7 @@ body {
 }
 .controls {
   width: 100;
-  background: #afcaf3;
+  background: #afc2af;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
@@ -60,7 +61,7 @@ body {
 
 .form-register .botons{
   width: 100%;
-  background: #041435;
+  background: #d467;
   border: none;
   padding: 12px;
   color: rgb(248, 246, 246);

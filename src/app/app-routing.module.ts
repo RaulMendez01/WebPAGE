@@ -1,8 +1,10 @@
+import { AvionComponent } from './avion/avion.component';
 
 
 import { CancelarComponent } from './cancelar/cancelar.component';
 import { VueloComponent } from './vuelo/vuelo.component';
 import { RutaComponent } from './ruta/ruta.component';
+
 
 import { AerolineaComponent } from './aerolinea/aerolinea.component';
 
@@ -24,7 +26,10 @@ const routes = [
   {path: 'registro',component:RegistroComponent},
   {path: 'cancelar',component:CancelarComponent},
 
-  {path: 'aerolinea',component:AerolineaComponent}
+  {path: 'aerolinea',component:AerolineaComponent},
+
+  {path: 'avion',component:AvionComponent}
+
 
 ]
 

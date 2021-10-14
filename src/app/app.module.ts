@@ -17,7 +17,8 @@ import { RutaComponent } from './ruta/ruta.component';
 import { RegistroComponent } from './registro/registro.component';
 import { CancelarComponent } from './cancelar/cancelar.component';
 
-import { AerolineaComponent } from './aerolinea/aerolinea.component'
+import { AerolineaComponent } from './aerolinea/aerolinea.component';
+import { AvionComponent } from './avion/avion.component'
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { AerolineaComponent } from './aerolinea/aerolinea.component'
     RegistroComponent,
     CancelarComponent,
 
-    AerolineaComponent
+    AerolineaComponent,
+      AvionComponent
   ],
   imports: [
     BrowserModule,
