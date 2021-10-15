@@ -47,4 +47,13 @@ Onaerolinea(){
 Onaavion(){
   this.router.navigate(["avion"])
 }
+Onasientos(){
+  this.router.navigate(["asientos"])
+
+}
+
+Onboleto(){
+  this.router.navigate(["boleto"])
+
+}
 }
