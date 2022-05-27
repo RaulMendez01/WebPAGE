@@ -20,7 +20,16 @@ import { CancelarComponent } from './cancelar/cancelar.component';
 import { AerolineaComponent } from './aerolinea/aerolinea.component';
 import { AvionComponent } from './avion/avion.component';
 import { BoletoComponent } from './boleto/boleto.component';
-import { AsientosComponent } from './asientos/asientos.component'
+import { AsientosComponent } from './asientos/asientos.component';
+
+import { ModificarComponent } from './COMPONENTES/modificar/modificar.component';
+import { InicioComponent } from './COMPONENTES/inicio/inicio.component';
+import { ModeloavionComponent } from './modeloavion/modeloavion.component';
+import { IniciooComponent } from './modeloavion/COMPONENTE/inicioo/inicioo.component';
+import { ModificarrComponent } from './modeloavion/COMPONENTE/modificarr/modificarr.component';
+import { AeropuertosComponent } from './aeropuertos/aeropuertos.component';
+import { AeroincialComponent } from './aeropuertos/COMPONENTE/aeroincial/aeroincial.component';
+import { ModiincialComponent } from './aeropuertos/COMPONENTE/modiincial/modiincial.component'
 
 @NgModule({
   declarations: [
@@ -35,7 +44,16 @@ import { AsientosComponent } from './asientos/asientos.component'
     AerolineaComponent,
       AvionComponent,
       BoletoComponent,
-      AsientosComponent
+      AsientosComponent,
+      
+      ModificarComponent,
+      InicioComponent,
+      ModeloavionComponent,
+      IniciooComponent,
+      ModificarrComponent,
+      AeropuertosComponent,
+      AeroincialComponent,
+      ModiincialComponent
   ],
   imports: [
     BrowserModule,

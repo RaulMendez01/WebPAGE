@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+
+¡<div class="container">
+
+ 
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Nombres</th>
+      <th scope="col">Apellidos</th>
+      <th scope="col">Tipo de Documento</th>
+      <th scope="col">No. Documento</th>
+      <th scope="col">Editar</th>
+      <th scope="col">Eliminar</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let boleto of Listarboletos">
+      <th>{{boleto.id_persona}}</th>
+      <td>{{boleto.nombres}}</td>
+      <td>{{boleto.apellidos}}</td>
+      <td>{{boleto.tipo_doc}}</td>
+      <td>{{boleto.numero_doc}}</td>
+      <td>
+        <button (click)="modificar(boleto.id_persona)" type="button" class="btn btn-info">Editar</button>
+      </td>
+      <td>
+        <button (click)="eliminar(boleto.id_persona)"type="button" class="btn btn-danger">Eliminar</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <button routerLink="/persona" type="button" class="btn btn-primary">NuevaPersona</button>
+
+
+</div>

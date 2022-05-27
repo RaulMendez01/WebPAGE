@@ -1,0 +1,14 @@
+{
+  "/Persona/*": {
+    "target": "http://localhost:3000/Personas",
+    "secure": "false",
+    "logLevel": "debug"
+
+ }
+ 
+ 
+    
+  
+
+}
+

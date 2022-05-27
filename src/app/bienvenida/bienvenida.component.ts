@@ -56,4 +56,13 @@ Onboleto(){
   this.router.navigate(["boleto"])
 
 }
+Onpersonas(){
+  this.router.navigate(["inicio"])
+
+}
+Onmodelo(){
+  this.router.navigate(["modeloavion"])
+
+}
+
 }
